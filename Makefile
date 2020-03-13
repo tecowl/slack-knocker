@@ -14,3 +14,9 @@ $(GOX):
 
 pkg:
 	$(MAKE) build
+
+VERSION=$(shell cat ./VERSION)
+
+.PHONY: version
+version:
+	@echo $(VERSION)
