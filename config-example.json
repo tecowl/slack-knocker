@@ -1,0 +1,7 @@
+{
+  "webhook_url": "https://hooks.slack.com/services/*********/*********/************************",
+  "text_format": "%s から着信がありました",
+  "channel": "#着信通知",
+  "username": "CTI",
+  "icon_emoji": ":telephone_receiver:"
+}
